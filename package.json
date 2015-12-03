@@ -1,6 +1,6 @@
 {
   "name": "mixmatch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yet Another Mixin",
   "homepage": "http://github.com/fulcrumapp/mixmatch",
   "main": "dist/index.js",
@@ -27,8 +27,7 @@
     "mocha": "^2.3.3",
     "source-map-support": "^0.4.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "mixin"
   ]
