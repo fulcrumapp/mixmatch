@@ -34,4 +34,5 @@ HasHeight.includeInto(Person);
 const me = new Person('me');
 
 console.log(me.height);
+console.log(me.heightAsMeters());
 ```
