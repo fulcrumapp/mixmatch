@@ -11,7 +11,7 @@
     "build": "tsc",
     "clean": "rm -rf dist"
   },
-  "author": "Zac McCormick <zac.mccormick@gmail.com> (http://github.com/zhm)",
+  "author": "Fulcrum",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",

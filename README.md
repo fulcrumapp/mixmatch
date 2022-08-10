@@ -1,4 +1,4 @@
-## mixmatch [![Build Status](https://secure.travis-ci.org/fulcrumapp/mixmatch.svg)](http://travis-ci.org/fulcrumapp/mixmatch)
+## mixmatch
 
 Yet another mixin.
 
