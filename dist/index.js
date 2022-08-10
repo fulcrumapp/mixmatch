@@ -1,10 +1,9 @@
 "use strict";
-/* eslint no-invalid-this: 0*/
 Object.defineProperty(exports, "__esModule", { value: true });
 const ExcludedClassProperties = ['__super__'];
 const ExcludedPrototypeProperties = ['constructor'];
 function mix(from, to, exclude) {
-    for (let name of Object.getOwnPropertyNames(from)) {
+    for (const name of Object.getOwnPropertyNames(from)) {
         if (exclude.indexOf(name) === -1) {
             if (!to.hasOwnProperty(name)) {
                 const descriptor = Object.getOwnPropertyDescriptor(from, name);
@@ -25,7 +24,7 @@ class Mixin {
     }
 }
 exports.default = Mixin;
-for (let name in Mixin) {
+for (const name in Mixin) {
     if (Mixin.hasOwnProperty(name)) {
         ExcludedClassProperties.push(name);
     }

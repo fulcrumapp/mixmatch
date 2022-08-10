@@ -1,4 +1,7 @@
+import chai from 'chai';
 import Mixin from '../src';
+
+chai.should();
 
 class HasHeight extends Mixin {
   get height() {
