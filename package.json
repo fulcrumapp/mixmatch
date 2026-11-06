@@ -1,6 +1,6 @@
 {
   "name": "@fulcrumapp/mixmatch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Yet Another Mixin",
   "homepage": "http://github.com/fulcrumapp/mixmatch",
   "main": "dist/index.js",
